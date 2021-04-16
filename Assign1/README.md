@@ -15,6 +15,7 @@
 4.	After applying Categorial Naïve Bayes, we achieved score 0.95 or 95% and predict our labels.
 5.	Then we implement our model on test.csv from Kaggle. We used tensor flow documentation because it is easy to understand.
 6.  We did filter/convolution 2D on (28,28,1) -> grey scale because 784= 28x28 we break it and applied (3,3) and (2,2) filter and simultaneously we used dropout which is used as      regularize.
+  
 7.  Run our model to check on each epochs that the desired accuracy achieved which is 0.990.
 8.  Now run and predict our model on test.csv and make a submission file which has Image Id and label and submit the file .csv on Kaggle.
 9.  Finally, we got the score of 0.99082 on Kaggle.
