@@ -16,3 +16,12 @@
 7.  Run our model to check on each epochs that the desired accuracy achieved which is 0.990.
 8.  Now run and predict our model on test.csv and make a submission file which has Image Id and label and submit the file .csv on Kaggle.
 9.  Finally, we got the score of 0.99082 on Kaggle.
+
+
+# What we learned from this Assignment?
+1. We learned that, how to train and test our data on any classification problem and simply predict our digit/labels. 
+2. After applying convolution and filter on test and training data, we see that it will get better accuracy and score.
+3. Let’s suppose we got score of 0.95% after applying Categorial Naïve Baser and then fit our model on test data and then predict labels so we can achieve 0.990 accuracy.
+4.We also learned how to implement hot-encoding on each number. For example: we have a digit 9 so:
+                                    000000001
+on bit of 9th index remaining bits are off.  Through one hot encoding we can evaluate of original training data and no. of labels.
