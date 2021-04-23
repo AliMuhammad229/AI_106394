@@ -1,10 +1,10 @@
 # Group Members:
 
-•	Ali Muhammad (Leader - 64413) 
-
-•	Syed Muhammad Tanzeel (60790)
-
-•	Muhammad Mughees (62749)
+StdID | Name
+------------ | -------------
+**64413** | **Ali Muhammad (Lead)** 
+62749 | Muhammad Mughees
+60790 | Syed Muhammad Tanzeel
 
 
 # Description:
