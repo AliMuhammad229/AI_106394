@@ -1,7 +1,7 @@
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
-**64413** | **Ali Muhammad** 
+**64413** | **Ali Muhammad (Lead)** 
 62749 | Muhammad Mughees
 60790 | Syed Muhammad Tanzeel
 
