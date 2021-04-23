@@ -1,4 +1,4 @@
-### PROJECT MEMBERS ###
+### Assignments & PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
 **64413** | **Ali Muhammad (Lead)** 
