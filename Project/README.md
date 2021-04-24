@@ -28,7 +28,7 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 # CV Score of Each Six Techniques: #
 
-## 1. Multinomial Naive Bayer: ##
+## 1. Multinomial Naive Bayes: ##
 
 1. Through this, we can achieve a score on Multinomial Naive Buyer 5x5 convolution with same size filter (1, 1) is 0.76.
 2. On 5x5 convolution, with different size filter (average filter) will be achieved 0.77.
@@ -38,4 +38,16 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 6. Now applying 9x9 convolution (81 pixels), with same filter on this model it will get 0.67 because when on the convolution, it is increasing and it will not        maintain accuracy.
 7. On 9x9 convolution, with average filter (diff filter) we achieve 0.6835.
 8. After the application of 9x9, convolution new array will become in the array of (0,400).
+
+
+
+## 1. KNN: ##
+
+1. In this model, it will find nearest neighbor on K-Value which is in the odd after get the sqrt on yTest (from CV).
+2. By using this model on 5x5, convolution with same filter we achieved 0.93 score.
+3. On 5x5 convolution, with different filter we achieved 0.94 score.
+4. On 7x7 convolution, with different filter we achieved 0.922.
+5. Now we applying 9x9 convolution, with same filter we achieve 0.879 score.
+6. On 9x9 convolution, with different filter we achieved 0.897 because with 9x9 convolution this will reduce further on 784 it is 81 so it will not maintain the      best score.
+
 
