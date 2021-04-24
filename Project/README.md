@@ -100,7 +100,7 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 ### Multinomial Naive Bayes: ###
 
-1 It is suitable discrete feature (counting, classification of tent)
+It is suitable discrete feature (counting, classification of tent)
 
 #### Parameters: #### 
       1. It take the smoothing value which means 0 for no smoothing or 1 for Laplace smoothing.
