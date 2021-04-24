@@ -11,7 +11,7 @@ StdID | Name
 
 In this project, we implement four classification techniques
 
- ####1. Multinomial Naïve Bayes ####
+ ##1. Multinomial Naïve Bayes ##
  ####2. Linear Regression ####
  ####3. SUM ####
  ####4. KNN ####
