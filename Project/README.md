@@ -148,3 +148,12 @@ It is used to minimize the sum of square. The observed target in the dataset and
       1. It takes the 'C' value which is regularize value, greater the value of C causes more chances to works at its best.
       2. It takes gamma values.
 
+
+
+
+
+
+# How We Achieved One Score with Other Techniques: #
+
+1. By using these four techniques, KNN gives the best score among other three techniques on 5x5 convolution with different filter (0.94 or 94%)      so if we enhance this model by using 2x2 or 3x3 convolution then it will give 0.99 or 1 score.
+2. Other techniques is CNN is categorical Naïve Bayer on cross fold to achieve 100% score. 
