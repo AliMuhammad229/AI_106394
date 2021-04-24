@@ -11,10 +11,10 @@ StdID | Name
 
 In this project, we implement four classification techniques
 
-****	Multinomial Naïve Bayer
-****	Linear Regression 
-****	SUM
-****	KNN
+**1**	Multinomial Naïve Bayer
+**2**	Linear Regression 
+**3**	SUM
+**4**	KNN
 
 In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filters.
   •	We have 784 columns of pixels, it breaks into 28x28, then we create a new array of new dimensions/size (2D Array) and apply 5x5 convolution.
