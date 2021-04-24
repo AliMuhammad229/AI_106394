@@ -130,19 +130,6 @@ It is used to minimize the sum of square. The observed target in the dataset and
       2. In this model we can define a range.
 
 
-
-
-### Linear Regression: ###
-
-It is used to minimize the sum of square. The observed target in the dataset and the target predicted by the linear approximation.
-
-#### Parameters: #### 
-      1. It takes max iter attribute to work on it.
-      2. In this model we can define a range.
-
-
-
-
 ### SVM: ###
 
 1. It will find the characteristics which matches the other classes.
