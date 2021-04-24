@@ -76,7 +76,10 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
+
 # Description of Important part of .py file: #
+
+
 ## Convolution Part: ##
 
 1. In this part, we are applying 5x5,7x7,9x9 convolution to map on our 42000 data, It will help to predict and get the filtered image/label.
@@ -86,4 +89,15 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 ## Models Part: ##
 
 1. We implement four techniques and on these techniques, we are applying convolutions to get the best/good score.
-2. But according to our views to work on this phase, we achieve best score on different filter(average filter) of convolution 
+2. But according to our views to work on this phase, we achieve best score on different filter(average filter) of convolution.
+
+
+
+
+
+# Description of Classifier from Scikit Learn: #
+
+
+## Multinomial Naive Bayes: ##
+
+*. It is suitable discrete feature (counting, classification of tent)
