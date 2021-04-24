@@ -104,3 +104,47 @@ It is suitable discrete feature (counting, classification of tent)
 
 #### Parameters: #### 
       1. It take the smoothing value which means 0 for no smoothing or 1 for Laplace smoothing.
+
+
+
+### KNN: ###
+
+It will find the nearest neighbors on K-value but this K-value is odd, after getting square root of yTest (from cross validation).
+
+#### Parameters: #### 
+      1. It takes K=7 (model) and also p value, if p=1 means euclidean distance and p=2 manhatten distance.
+
+
+
+
+
+### Linear Regression: ###
+
+It is used to minimize the sum of square. The observed target in the dataset and the target predicted by the linear approximation.
+
+#### Parameters: #### 
+      1. It takes max iter attribute to work on it.
+      2. In this model we can define a range.
+
+
+
+### Linear Regression: ###
+
+It is used to minimize the sum of square. The observed target in the dataset and the target predicted by the linear approximation.
+
+#### Parameters: #### 
+      1. It takes max iter attribute to work on it.
+      2. In this model we can define a range.
+
+
+
+
+### SVM: ###
+
+1. It will find the characteristics which matches the other classes.
+2. In this model, we have advantage that we can’t note data points instead of note down the suppose vector.
+
+#### Parameters: #### 
+      1. It takes the 'C' value which is regularize value, greater the value of C causes more chances to works at its best.
+      2. It takes gamma values.
+
