@@ -9,7 +9,9 @@ StdID | Name
 
 # Description: How we Achieved each Task?
 
+
 In this project, we implement four classification techniques
+
 
  1.  Multinomial Naïve Bayes
  2.  Linear Regression 
@@ -23,7 +25,8 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
-# What we learned from this Assignment?
+# Cv Score of Each Six Techniques: #
+## 1. Multinomial Naïve Bayer: ##
 
 1. We learned that, how to train and test our data on any classification problem and simply predict our digit/labels. 
 2. After applying convolution and filter on test and training data, we see that it will get better accuracy and score.
