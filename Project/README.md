@@ -133,11 +133,6 @@ It is used to minimize the sum of square. The observed target in the dataset and
 
 
 
-
-
-
-
-
 # How We Achieved One Score with Other Techniques: #
 
 1. By using these four techniques, KNN gives the best score among other three techniques on 5x5 convolution with different filter (0.94 or 94%)      so if we enhance this model by using 2x2 or 3x3 convolution then it will give 0.99 or 1 score.
