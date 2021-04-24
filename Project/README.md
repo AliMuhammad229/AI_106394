@@ -113,9 +113,6 @@ It will find the nearest neighbors on K-value but this K-value is odd, after get
 #### Parameters: #### 
       1. It takes K=7 (model) and also p value, if p=1 means euclidean distance and p=2 manhatten distance.
 
-
-
-
 ### Linear Regression: ###
 
 It is used to minimize the sum of square. The observed target in the dataset and the target predicted by the linear approximation.
