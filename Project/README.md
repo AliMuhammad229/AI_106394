@@ -95,6 +95,7 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
+
 # Description of Classifier from Scikit Learn: #
 
 
@@ -104,6 +105,7 @@ It is suitable discrete feature (counting, classification of tent)
 
 #### Parameters: #### 
       1. It take the smoothing value which means 0 for no smoothing or 1 for Laplace smoothing.
+
 
 
 
@@ -118,6 +120,7 @@ It will find the nearest neighbors on K-value but this K-value is odd, after get
 
 
 
+
 ### Linear Regression: ###
 
 It is used to minimize the sum of square. The observed target in the dataset and the target predicted by the linear approximation.
@@ -125,6 +128,7 @@ It is used to minimize the sum of square. The observed target in the dataset and
 #### Parameters: #### 
       1. It takes max iter attribute to work on it.
       2. In this model we can define a range.
+
 
 
 
@@ -147,6 +151,8 @@ It is used to minimize the sum of square. The observed target in the dataset and
 #### Parameters: #### 
       1. It takes the 'C' value which is regularize value, greater the value of C causes more chances to works at its best.
       2. It takes gamma values.
+
+
 
 
 
