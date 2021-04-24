@@ -6,7 +6,6 @@
 
 •	Muhammad Mughees (62749)
 
-
 # Description:
 
 1.	We have two files train.csv & test.csv. Now we read train.csv file and split it into two parts which is ‘x’ and ‘y’, where ‘y’ has a label column and ‘x’ has remaining 784 columns of pixels.
