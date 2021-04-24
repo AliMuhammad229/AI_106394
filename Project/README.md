@@ -41,13 +41,26 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
-## 1. KNN: ##
+## 2. KNN: ##
 
 1. In this model, it will find nearest neighbor on K-Value which is in the odd after get the sqrt on yTest (from CV).
 2. By using this model on 5x5, convolution with same filter we achieved 0.93 score.
 3. On 5x5 convolution, with different filter we achieved 0.94 score.
 4. On 7x7 convolution, with different filter we achieved 0.922.
 5. Now we applying 9x9 convolution, with same filter we achieve 0.879 score.
-6. On 9x9 convolution, with different filter we achieved 0.897 because with 9x9 convolution this will reduce further on 784 it is 81 so it will not maintain the      best score.
+6. On 9x9 convolution, with different filter we achieved 0.897 because with 9x9 convolution this will reduce further on 784 it is 81 so it will not maintain the best score.
+
+
+
+## 3. Linear Regression: ##
+
+1. This model used to minimize the sum of square between  the observed and target in the data set and the target predicted by the linear approximation.
+2. By using this model on 5x5, convolution with same filter we achieved 0.603 score.
+3. On 5x5 convolution, with different filter we achieved 0.604 score
+4. Now applying 7x7 convolution, with same filter we achieved 0.603 score.
+5. On 7x7 convolution with different filter, we achieved 0.588 score.
+6. Now applying 9x9 convolution, with same filter we achieved 0.5818 score.
+7. On 9x9 convolution, with different filter we achieved 0.5841.
+
 
 
