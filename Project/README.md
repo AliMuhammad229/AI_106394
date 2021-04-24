@@ -7,18 +7,20 @@ StdID | Name
 60790 | Syed Muhammad Tanzeel
 
 
-# Description:
+# Description: How we Achieved each Task?
 
-1.	We have two files train.csv & test.csv. Now we read train.csv file and split it into two parts which is ‘x’ and ‘y’, where ‘y’ has a label column and ‘x’ has remaining 784 columns of pixels.
-2.	Then we cross validate (CV) it from train_x and train_y to test_x, test_y because it will split our training data into 20% test and 80% of train.
-3.	Now we will applying classification problem from Scikit team (which is Categorial Naïve Bayes) on 20% of test data which were cross validate later.
-4.	After applying Categorial Naïve Bayes, we achieved score 0.95 or 95% and predict our labels.
-5.	Then we implement our model on test.csv from Kaggle. We used tensor flow documentation because it is easy to understand.
-6.  We did filter/convolution 2D on (28,28,1) -> grey scale because 784= 28x28 we break it and applied (3,3) and (2,2) filter and simultaneously we used dropout which is used as      regularize.
-  
-7.  Run our model to check on each epochs that the desired accuracy achieved which is 0.990.
-8.  Now run and predict our model on test.csv and make a submission file which has Image Id and label and submit the file .csv on Kaggle.
-9.  Finally, we got the score of 0.99082 on Kaggle.
+In this project, we implement four classification techniques
+
+****	Multinomial Naïve Bayer
+****	Linear Regression 
+****	SUM
+****	KNN
+
+In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filters.
+  •	We have 784 columns of pixels, it breaks into 28x28, then we create a new array of new dimensions/size (2D Array) and apply 5x5 convolution.
+  •	After the implementation of 5x5 convolution, new array will became in the shape of (0, 576) because this 5x5 convolution will implemented on 42000 rows of         train.csv
+
+
 
 
 # What we learned from this Assignment?
