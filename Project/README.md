@@ -64,3 +64,26 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
+## 4. SVM ##
+
+1. This model is different from other because it does not learn on the characteristics not like other models learn.
+2. By using this model, on 5x5 convolution with same filter we achieve 0.88 score.
+3. On 5x5 convolution, with different filter we achieve 0.87 score.
+4. Now applying 7x7 convolution with same filter we achieve 0.89 score.
+5. On 7x7 convolution, with different filter we achieved 0.87 score.
+6. Now applying 9x9 convolution with same filter we achieve 0.76 score.
+7. On 9x9 convolution, with different filter we achieve 0.77 score.
+
+
+
+# Description of Important part of .py file: #
+## Convolution Part: ##
+
+1. In this part, we are applying 5x5,7x7,9x9 convolution to map on our 42000 data, It will help to predict and get the filtered image/label.
+2. Explaining about its working, Firstly, we can break our 784 columns into 28x28 and create 2D Array and iterate on array filter will push into it.
+
+
+## Models Part: ##
+
+1. We implement four techniques and on these techniques, we are applying convolutions to get the best/good score.
+2. But according to our views to work on this phase, we achieve best score on different filter(average filter) of convolution 
