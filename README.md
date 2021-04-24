@@ -6,4 +6,4 @@ StdID | Name
 60790 | Syed Muhammad Tanzeel
 
 # AI_106394
-This Repository is for AI Course (Spring_2021) Assignments & Project 
+This Repository is for AI Course (Spring_2021) Assignments & Project teaching by Sir Farooq.
