@@ -25,16 +25,17 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
-# Cv Score of Each Six Techniques: #
-## 1. Multinomial Naïve Bayer: ##
 
-1. We learned that, how to train and test our data on any classification problem and simply predict our digit/labels. 
-2. After applying convolution and filter on test and training data, we see that it will get better accuracy and score.
-3. Let’s suppose we got score of 0.95% after applying Categorial Naïve Baser and then fit our model on test data and then predict labels so we can achieve 0.990 accuracy.
-4. We also learned how to implement hot-encoding on each number. For example: we have a digit 9 so:
-                                    000000001
-   on bit of 9th index remaining bits are off.  Through this one hot encoding we can evaluate of original training data and no. of labels (predicted Data), this one hot encoding we use/follow tensor flow documention.
-5. We are applying Categorical naive Bayes, it is the classifier is suitable for classification with discrete features that are categorically distributed.
-6. This model is expected to be called many times consecutively on different chunks of a dataset.
-7. This model is useful when the whole dataset is too big to fit in memory at once.
+# CV Score of Each Six Techniques: #
+
+## 1. Multinomial Naive Bayer: ##
+
+1. Through this, we can achieve a score on Multinomial Naive Buyer 5x5 convolution with same size filter (1, 1) is 0.76.
+2. On 5x5 convolution, with different size filter (average filter) will be achieved 0.77.
+3. Now apply 7x7 convolution (49 pixels) with same filter on Multinomial Naïve Bayer, it will get 0.71 score and it will not maintain the score as compare to 5x5      convolution.
+4. On 7x7 convolution, with average filter (diff filter) achieved 0.72.
+5. After 7x7 convolution, new array will become 0.484.
+6. Now applying 9x9 convolution (81 pixels), with same filter on this model it will get 0.67 because when on the convolution, it is increasing and it will not        maintain accuracy.
+7. On 9x9 convolution, with average filter (diff filter) we achieve 0.6835.
+8. After the application of 9x9, convolution new array will become in the array of (0,400).
 
