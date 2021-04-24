@@ -116,8 +116,6 @@ It will find the nearest neighbors on K-value but this K-value is odd, after get
 
 
 
-
-
 ### Linear Regression: ###
 
 It is used to minimize the sum of square. The observed target in the dataset and the target predicted by the linear approximation.
