@@ -2,9 +2,9 @@
 
 StdID | Name
 ------------ | -------------
-64413 | Ali Muhammad (Lead) 
+**64413** | **Ali Muhammad (Lead)** 
 62749 | Muhammad Mughees
-**60790** | **Syed Muhammad Tanzeel**
+60790 | Syed Muhammad Tanzeel
 
 
 # Description: How we Achieved each Task?
