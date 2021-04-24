@@ -93,9 +93,6 @@ In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filte
 
 
 
-
-
-
 # Description of Classifier from Scikit Learn: #
 
 
