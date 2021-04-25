@@ -20,7 +20,6 @@ train = pd.read_csv("Kaggle Data/train.csv")
 X = train.drop('label',axis=1)
 Y = train['label']
 # print(X)
-
 #Create Filter for convolution 5 x 5
 # Same Dimension
 filter = np.array([
