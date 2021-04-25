@@ -10,7 +10,7 @@ StdID | Name
 # Description: How we Achieved each Task?
 
 
-In this project, we implement four classification techniques
+In this project, we implement four classifications techniques
 
 
  1.  Multinomial Naïve Bayes
