@@ -63,6 +63,8 @@ print(train_x.shape)
 print(test_x.shape)
 print('\n')
 
+# Mughees Work
+
 # For Covolution in 2D we used this variables
 noLables = 10
 batchSize = 64
@@ -116,7 +118,7 @@ print('\n')
 print(classification_report(y_test, prediction))
 
 
-# Mughees & Tanzeel Work
+
 
 # Convolution/ Filtering
 # Run model to convolve from this
@@ -134,6 +136,8 @@ model.add(Dropout(0.2))
 model.add(Flatten())
 model.add(Dense(512,activation = 'relu'))
 model.add(Dense(512, activation = 'relu'))
+
+# Tanzeel Work
 
 # sigmoid will give the output based on maximum probability
 # 10 means direct 10 classes in this multiclass classification
