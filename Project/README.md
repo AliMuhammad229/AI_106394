@@ -15,7 +15,7 @@ In this project, we implement four classifications techniques
 
  1.  Multinomial Naïve Bayes
  2.  Linear Regression 
- 3.  SUM 
+ 3.  SVM 
  4.  KNN 
 
 In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filters.
